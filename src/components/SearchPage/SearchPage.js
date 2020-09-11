@@ -1,6 +1,7 @@
 import React from 'react';
 import './SearchPage.css';
 import { Button } from '@material-ui/core';
+import SearchResult from '../SearchResult/SearchResult';
 
 function SearchPage() {
   return (
@@ -14,6 +15,36 @@ function SearchPage() {
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
       </div>
+
+      <SearchResult
+        img="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39982980-unapproved/original/d07e036e-ddf7-4839-a334-c519d2d5067f.JPEG?aki_policy=large"
+        location="Private room in center of London"
+        title="Stay at this spacious Edwardian House"
+        description="1 guest &#183; 1 bedroom &#183; 1 bed &#183; 1.5 shared bathrooms &#183; Wifi &#183; Kitchen &#183; Free parking &#183; Washing Machine"
+        star={4.73}
+        price="$30 / night"
+        total="$117 total"
+      />
+      
+      <SearchResult
+        img="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39982980-unapproved/original/d07e036e-ddf7-4839-a334-c519d2d5067f.JPEG?aki_policy=large"
+        location="Private room in center of London"
+        title="Stay at this spacious Edwardian House"
+        description="1 guest &#183; 1 bedroom &#183; 1 bed &#183; 1.5 shared bathrooms &#183; Wifi &#183; Kitchen &#183; Free parking &#183; Washing Machine"
+        star={4.73}
+        price="$30 / night"
+        total="$117 total"
+      />
+
+      <SearchResult
+        img="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-39982980-unapproved/original/d07e036e-ddf7-4839-a334-c519d2d5067f.JPEG?aki_policy=large"
+        location="Private room in center of London"
+        title="Stay at this spacious Edwardian House"
+        description="1 guest &#183; 1 bedroom &#183; 1 bed &#183; 1.5 shared bathrooms &#183; Wifi &#183; Kitchen &#183; Free parking &#183; Washing Machine"
+        star={4.73}
+        price="$30 / night"
+        total="$117 total"
+      />
     </div>
   )
 }
